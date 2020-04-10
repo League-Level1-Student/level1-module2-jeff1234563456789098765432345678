@@ -4,13 +4,25 @@ package _04_tea_maker;
  *    Level 1
  */
 
+
+
 public class TeaMaker {
 
 	/* Figure out how to make a cup of tea in this runner class, using the other classes below */
-
+	
+TeaMaker(){
+	
 }
 
+	
+
+TeaMaker TeaMaker = new TeaMaker();
+	  TeaBag bag = new TeaBag("GREEN");
+	  Kettle kettle = new Kettle();
+	  Cup cup = new Cup();
+
 class TeaBag {
+
 
 	public final static String GREEN = "Green";
 	public final static String MINT = "Mint";
@@ -65,5 +77,5 @@ class Cup {
 	}
 
 }
-
+}
 
